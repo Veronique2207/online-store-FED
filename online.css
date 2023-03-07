@@ -18,6 +18,14 @@ section header{
     box-shadow: 0 0 20px rgba(15, 15, 15, 0.3);
 }
 
+section header p{
+    cursor: pointer;
+    padding: 15px 25px;
+    border: 1px solid rgb(219, 144, 156);
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
 section header.logo {
     font-size: 30px;
     color: black;
@@ -65,4 +73,6 @@ section header ul li a{
     height: 100%;
     background: brown;
     clip-path: circle(400px at right 800px);
+    z-index: -1;
 }
+
