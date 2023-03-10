@@ -53,6 +53,37 @@ section header ul li a{
  text-decoration: none;
 }
 
+.Cart-Container{
+    width: 70%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+   }
+
+   .Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .Heading{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 700;
+    color: #2F3841;
+   }
+   .Action{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #be3232;
+    cursor: pointer;
+    border-bottom: 1px solid #be3b3b;
+   }
+
 .circle{
     position: absolute;
     top: 0;
@@ -152,7 +183,7 @@ section.btn p{
 .about .box .card:hover{
     box-shadow: 3px 5px 20px rgba(0 0 0 0.3);
     transform: scale(1.1);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .footer{
